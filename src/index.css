@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'helvetica';
+  src: url('./assets/fonts/HelveticaNeueMedium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'helv-italics';
+  src: url('./assets/fonts/HelveticaNeueItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
