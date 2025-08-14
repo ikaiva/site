@@ -1,5 +1,6 @@
 {
   "name": "my-project",
+  "homepage":"https://ikaiva.github.io/site/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
