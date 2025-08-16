@@ -59,12 +59,12 @@ Our flagship product, Lens, puts this philosophy into action — bringing truth 
     <div>
       <div className="w-[90%] mx-auto min-h-screen flex flex-col">
       {/* Navbar */}
-      <nav className="flex items-center justify-between py-4">
+      <nav className="flex items-center justify-between py-5">
         {/* Logo */}
         <img
           src="/logo.png"
           alt="Ikaiva Logo"
-          className="h-10 w-auto"
+          className="h-9 w-auto"
         />
 
         {/* Links */}
@@ -90,8 +90,8 @@ Our flagship product, Lens, puts this philosophy into action — bringing truth 
     </p>
 
     {/* The main heading now takes up the full space in the normal flow */}
-    <div className="font-[Helvetica] text-right tracking-[-16px] text-5xl sm:text-6xl lg:text-[16rem] p-0 m-0 pb-8 ">
-      <div className='m-0 leading-36  '>reflecting art</div>
+    <div className="font-[Helvetica] text-right tracking-[-16px] text-5xl sm:text-6xl lg:text-[16rem] p-0 m-0 pb-8 pt-3 -z-10">
+      <div className='m-0 leading-36'>reflecting art</div>
       <div>& beauty<span>.</span></div>
     </div>
     
@@ -131,20 +131,23 @@ Our flagship product, Lens, puts this philosophy into action — bringing truth 
   ))}
 </div>
       {/* Navbar */}
-      <nav className="flex items-center justify-between py-4">
+      <div className="w-[90%] mx-auto  flex flex-col mb-12 mt-24">
+        <nav className="flex items-center justify-between py-4 ">
         {/* Logo */}
         <img
           src="/logo.png"
           alt="Ikaiva Logo"
-          className="h-12 w-auto"
+          className="h-9 w-auto"
         />
 
         {/* Links */}
-        <ul className=" flex space-x-10 text-lg font-medium">
+        <ul className=" flex space-x-10 text-lg font-[helv-italics] ">
           <li className="cursor-pointer">lens.</li>
           <li className="cursor-pointer">mail.</li>
         </ul>
       </nav>
+      </div>
+      
 
     </div>
   )
