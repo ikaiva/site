@@ -10,7 +10,7 @@ const App = () => {
 We are an AI research and product company dedicated to a single truth — that trust in technology begins with proof. Every system we build, every product we ship, is accountable by design. Not as a checkbox. Not as a premium feature. But as the foundation.
 The next era of artificial intelligence will be defined not by how fast it can process data, but by how well it can explain itself. At Ikaiva, our mission is to create AI systems that can show their work — systems that bridge performance with verifiable reasoning.It’s AI you can interrogate. AI you can trust. AI that proves itself.
 Our flagship product, Lens, puts this philosophy into action — bringing truth and visibility into the heart of software development.`,
-    dividerSrc: "../public/hero-section.jpg", // Added image path
+    dividerSrc: "../hero-section.jpg", // Added image path
   },
   {
     title: "proof as a foundation",
@@ -19,7 +19,7 @@ Our flagship product, Lens, puts this philosophy into action — bringing truth 
 We are an AI research and product company dedicated to a single truth — that trust in technology begins with proof. Every system we build, every product we ship, is accountable by design. Not as a checkbox. Not as a premium feature. But as the foundation.
 The next era of artificial intelligence will be defined not by how fast it can process data, but by how well it can explain itself. At Ikaiva, our mission is to create AI systems that can show their work — systems that bridge performance with verifiable reasoning. It’s AI you can interrogate. AI you can trust. AI that proves itself.
 Our flagship product, Lens, puts this philosophy into action — bringing truth and visibility into the heart of software development.`,
-    dividerSrc: "../public/divider-2.jpg", // Added image path
+    dividerSrc: "../divider-2.jpg", // Added image path
   },
   {
     title: "how truth works in ai",
@@ -28,7 +28,7 @@ Our flagship product, Lens, puts this philosophy into action — bringing truth 
 We are an AI research and product company dedicated to a single truth — that trust in technology begins with proof. Every system we build, every product we ship, is accountable by design. Not as a checkbox. Not as a premium feature. But as the foundation.
 The next era of artificial intelligence will be defined not by how fast it can process data, but by how well it can explain itself. At Ikaiva, our mission is to create AI systems that can show their work — systems that bridge performance with verifiable reasoning. It’s AI you can interrogate. AI you can trust. AI that proves itself.
 Our flagship product, Lens, puts this philosophy into action — bringing truth and visibility into the heart of software development.`,
-    dividerSrc: "../public/divider-3.jpg", // Added image path
+    dividerSrc: "../divider-3.jpg", // Added image path
   },
   {
     title: "live environment navigation system",
@@ -37,13 +37,13 @@ Our flagship product, Lens, puts this philosophy into action — bringing truth 
 We are an AI research and product company dedicated to a single truth — that trust in technology begins with proof. Every system we build, every product we ship, is accountable by design. Not as a checkbox. Not as a premium feature. But as the foundation.
 The next era of artificial intelligence will be defined not by how fast it can process data, but by how well it can explain itself. At Ikaiva, our mission is to create AI systems that can show their work — systems that bridge performance with verifiable reasoning.It’s AI you can interrogate. AI you can trust. AI that proves itself.
 Our flagship product, Lens, puts this philosophy into action — bringing truth and visibility into the heart of software development.`,
-    dividerSrc: "../public/divider-1.jpg", // Added image path
+    dividerSrc: "../divider-1.jpg", // Added image path
   },
   {
     title: "lens: a product of ikaiva",
     headerTag: "h6",
     text: ``,
-    dividerSrc: "../public/divider-2.jpg", // Added image path
+    dividerSrc: "../divider-2.jpg", // Added image path
   },
   {
     title: "ikaiva's studio",
@@ -101,7 +101,7 @@ Our flagship product, Lens, puts this philosophy into action — bringing truth 
         {/* Bottom 50% - Image */}
         <div className="h-[30rem]">
           <img
-            src="../public/hero-section.jpg"
+            src="../hero-section.jpg"
             alt="Landing Visual"
             className="w-full h-full object-cover"
           />
